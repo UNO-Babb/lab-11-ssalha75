@@ -1,0 +1,24 @@
+#GroceryStoreSim.txt
+#Name: Sara Salha
+#Date: 04/27/2025
+#Assignment: Lab 11
+
+##Overview
+In this simulation, shoppers arrive at a grocery store every few minutes, shop for a random number of items, and then wait in line for a checker. We measured how long shoppers waited and how busy the checkers were during the simulation.
+
+##Testing Different Settings
+I tested the simulation by changing the number of checkers and how often shoppers arrived:
+- With 5 checkers and shoppers every 2 minutes, wait times stayed low.
+- With only 2 checkers, shoppers had to wait much longer.
+- With 8 checkers, shoppers checked out quickly, but many checkers sat idle.
+- When shoppers arrived faster, the store became overcrowded.
+
+##Extra Data Collected
+The simulation also tracked:
+- How many shoppers there were
+- The average number of items bought
+- Average shopping time
+- Total idle time for the checkers
+
+##Conclusion
+Having more checkers keeps wait times down but can lead to wasted time when it's not busy. If shoppers come too fast and there aren't enough checkers, wait times go way up. It’s important to find a good balance.
